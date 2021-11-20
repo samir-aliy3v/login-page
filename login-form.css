@@ -1,0 +1,177 @@
+
+/* Arxaplan şəkli */
+
+#bg-pic{
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	min-width: 100%;
+	min-height: 100%;
+	z-index:-1;
+}
+
+/* Login Form Div */
+
+.login-form{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width:20em;
+	height:24em;
+	border:1px solid black;
+	border-radius:10px;
+	padding:20px;
+	z-index:1;
+	background-color:white;
+}
+
+/* Başlıq */
+
+.header{
+	position:absolute;
+	left:50%;
+	transform:translate(-50%, -50%);
+	font-family: 'Lato', sans-serif;
+}
+
+/* Inputlar */
+
+.username{
+	margin-top:70px;
+	padding:10px;
+	width:88%;
+	border-radius:1px solid #9c9292;
+	border:none;
+	border-bottom:1px solid #445f;
+	outline:none;
+	font-family: 'IBM Plex Sans', sans-serif;
+
+}
+.password{
+	margin-top:20px;
+	padding:10px;
+	width:88%;
+	border-radius:1px solid #9c9292;
+	border:none;
+	border-bottom:1px solid #445f;
+	outline:none;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Checkbox və "şifrəni unutdum" hissəsi*/
+
+.remember-me,.forgot-password{
+	display:inline-flex;
+	align-items: center;
+	margin-top:10px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.forgot-password{
+	margin-left:53px;
+	font-size:15.5px;
+	text-decoration:none;
+	color:#16910a;
+}
+
+/* Login butonu */
+
+.login-button{
+	margin-top:20px;
+	width:96%;
+	height:3em;
+	color:#fff;
+	outline:none;
+	font-size:18px;
+	border:1px solid purple;
+	border-radius:5px;
+	background-color:purple;
+	cursor:pointer;
+	z-index:100;
+
+}
+
+.login-button:hover{
+	background-color:#c217a0;
+}
+
+/* Signup səhifəsinə keçid */
+
+.not-a-member,.sign-up{
+	font-family: 'IBM Plex Sans', sans-serif;
+	text-decoration:none;
+	display:inline-flex;
+}
+
+.sign-up{
+	color:#4e615e;
+}
+
+/* OR xətti */
+
+.or{
+	text-align:center;
+	border-bottom:1px solid #ccc;
+	font-size:15px;
+	position:relative;
+	top:5%;
+}
+
+.or span{
+	display:inline-block;
+	background:#fff;
+	color:#999;
+	padding: 0 10px;
+	transform:translateY(50%);
+}
+
+
+/* Sosial media linkləri - ümumi */
+
+.social-media{
+		list-style:none;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		top:5%;
+}
+
+.social-media li{
+	position:relative;
+	padding:10px;
+	font-size:35px;
+	right:7%;
+
+}
+
+.sm-links{
+	text-decoration:none;
+}
+
+/* Facebook */
+
+#fb{
+	color: #3b5998;
+	transition:250ms all;
+}
+
+#fb:hover{ color:#1d3c82; }
+
+/* Twitter */
+
+#tw{ 
+	color:#00acee; 
+	transition:250ms all; 
+}
+
+#tw:hover{ color:#0f9bd1; }
+
+/* Linkedin */
+
+#lnk{
+	color:#0e76a8;
+	transition:250ms all
+}
+
+#lnk:hover{ color:#116891; }

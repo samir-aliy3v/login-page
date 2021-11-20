@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Signup Form</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="signup-form.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<img src="bg-pic.jpg" id="bg-pic">
+	<form>
+	
+	<div class="signup-form">
+		<h1 class="header">Signup Form</h1>
+		<input type="text" class="firstname" placeholder="First Name">
+		<input type="text" class="lastname" placeholder="Last Name">
+
+		<input type="email" class="email-adress" placeholder="Email Adress" required>
+
+		<input type="text" class="username" placeholder="Username">
+		<input type="tel" class="phone-number" placeholder="Phone Number" minlength="9" maxlength="14" required>
+
+		<input type="password" class="password" placeholder="Password" minlength="8" maxlength="64" required>
+
+		<label class="checkBox">
+		<input type="checkbox" class="check">
+		I have read and agreed to the <a href="#" id="terms">terms and conditions.</a>
+		</label>
+
+		<button class="create">Create an account</button>
+
+		<label class="member">I'm already a member! <a href="login-form.html" id="sign">Sign in</a></label>
+	</div>
+	</form>
+</body>
+</html>

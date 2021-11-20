@@ -1,0 +1,132 @@
+/* Arxaplan şəkli */
+
+#bg-pic{
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	min-width: 100%;
+	min-height: 100%;
+	z-index:-1;
+}
+
+/* Signup Form Div */
+
+.signup-form{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width:26em;
+	height:30em;
+	border:1px solid black;
+	border-radius:10px;
+	padding:20px;
+	z-index:1;
+	background-color:white;
+}
+
+/* Başlıq */
+
+.header{
+	position:absolute;
+	left:30%;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Inputlar üçün ümumi kod*/
+
+input{
+	padding:7px;
+	outline:none;
+}
+
+/* Inputlar */
+
+.firstname{
+	position: absolute;
+	top:25%;
+}
+
+.lastname{
+	position: absolute;
+	top:25%;
+	left:50%;
+}
+
+.email-adress{
+	position: absolute;
+	top:37%;
+	width:83%;
+}
+
+.username{
+	position: absolute;
+	top:49%;
+}
+
+.phone-number{
+	position: absolute;
+	top:49%;
+	left:50%;
+}
+
+.password{
+	position: absolute;
+	top:61%;
+	width:83%;
+}
+
+/* Checkbox və qaydalar */
+
+.checkBox{
+	position: absolute;
+	top:72%;
+	font-family: 'Palatino', sans-serif;
+	font-size:15px;
+	font-weight:700;
+}
+
+
+#terms{
+	text-decoration: none;
+}
+
+/* Hesab yaratmaq butonu */
+
+.create{
+	position: absolute;
+	top:80%;
+	left:4.5%;
+	color:#fff;
+	background:purple;
+	width:87.5%;
+	height:48px;
+	outline:none;
+	border-radius:20px;
+	padding:10px;
+	font-family: 'Trebuchet MS', sans-serif; 
+	font-size:17px;
+	transition:0.3s;
+	cursor:pointer;
+}
+
+.create:hover{
+	background-color: #860eab;
+	letter-spacing: 2px;
+}
+
+/* Login səhifəsinə keçid  */
+
+.member{
+	position: absolute;
+	top:91%;
+	left:6%;
+	font-family: 'Century Gothic', sans-serif; 
+	font-size:15px;
+
+}
+
+#sign{
+	text-decoration: none;
+	color:#4e615e;
+}
